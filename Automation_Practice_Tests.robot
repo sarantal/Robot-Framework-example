@@ -31,11 +31,11 @@ Create an Account
     Sleep    2
     Page Should Contain    Create an account
     Click Element    id_gender1
-    Input Text    customer_firstname    Sami
-    Input Text    customer_lastname    Rantalankila
+    Input Text    customer_firstname    Etunimi
+    Input Text    customer_lastname    Sukunimi
     Input Text    passwd    salasana
-    Input Text    firstname    Sami
-    Input Text    lastname    Rantalankila
+    Input Text    firstname    Etunimi
+    Input Text    lastname    Sukunimi
     Input Text    address1    Testitie 1 A 1
     Input Text    city    Oulu
     Select From List By Value    id_state    2
